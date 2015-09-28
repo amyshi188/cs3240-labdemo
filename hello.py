@@ -1,7 +1,5 @@
 __author__ = 'ds2ca'
+from helper import greeting
 
-def greeting(msg):
-    print msg
-
-if __name__ == "__main__":
-    greeting('hello')
+msg = 'hello'
+print greeting(msg)
